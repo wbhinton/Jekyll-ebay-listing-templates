@@ -2,14 +2,28 @@
 
 ## Summary
 
+I needed to sell some things on eBay, so I started looking around for templates, but the “free ebay templates” you find online, are terrible! After finding some simplier ones on GitHub I settled on a Twitter Bootstrap based theme, which has the ability to embed the ‘glificons’ in the html. So this repo is my set of eBay listing templates originally forked from [dandesousa/ebay-listings](https://github.com/dandesousa/ebay-listings), with the license requirements left intact.
 
 ## Usage
 
+* Clone this repo
+
+```
+git clone https://github.com/philcryer/ebay-listing-templates.git
+```
+
+* Login to eBay
+* Choose ‘Sell an item’
+* When you’re filling out the information on your item, click in the editor for the `html` editor
+* Find a file in ebay-listing-templates that you want to use
+* Open the file in an editor, and cut and paste the html found in one of the .html files into the html editor
+* Edit description and other fields to match your auction
+* ???
+* Profit!
 
 ## License
 
 ```
-`A set of eBay listing templates based on Twitter Bootstrap, this is my forked version from [dandesousa/ebay-listings](https://github.com/dandesousa/ebay-listings)
 CC0 1.0 Universal
 
 Statement of Purpose
@@ -127,3 +141,5 @@ Affirmer's express Statement of Purpose.
 For more information, please see
 <http://creativecommons.org/publicdomain/zero/1.0/>
 ````
+
+### Thanks
