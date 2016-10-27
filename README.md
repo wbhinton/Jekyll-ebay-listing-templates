@@ -4,6 +4,8 @@
 
 I needed to sell some things on eBay, so I started looking around for templates, but the “free ebay templates” you find online, are terrible! After finding some simplier ones on GitHub I settled on a Twitter Bootstrap based theme, which has the ability to embed the ‘glificons’ in the html. So this repo is my set of eBay listing templates originally forked from [dandesousa/ebay-listings](https://github.com/dandesousa/ebay-listings), with the license requirements left intact.
 
+**UPDATE** code cleaned up and refactored by [Mario Lurig](https://mariolurig.com/forsale/free-ebay-template-bootstrap/), his changes are now in `index.html` - thanks again Mario!
+
 ## Usage
 
 * Clone this repo
