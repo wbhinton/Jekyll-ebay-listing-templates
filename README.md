@@ -3,11 +3,11 @@
 ## Summary
 I was in need of a way to quickly make a set of nice eBay listings for multiple items. I found and forked this repo from philcryer. I liked the easy bootstrap implementation and new it would work for what I needed. 
 
-In the main folder you will find the base.html, index.html, stereo_component.html and pokemon-tcg.html. All of these can be used for ideas on creating further Jekyll templates. I do plan on integrating these html docs into layouts to generate listings at some point in the future. Currently all I have is the base.html layout created. 
+In the main folder you will find the **base.html**, **index.html**, **stereo-component.html** and **pokemon-tcg.html**. All of these can be used for ideas on creating further Jekyll templates. I do plan on integrating these html docs into layouts to generate listings at some point in the future. Currently all I have is the base.html layout created. 
 
-Setup your preferred shipping methods by editing the shipping.yml and shipmethods.yml files in the `_data` folder. This information will be used to generate your listing files.
+Setup your preferred shipping methods by editing the **shipping.yml** and **shipmethods.yml** files in the `_data` folder. This information will be used to generate your listing files.
 
-To use the listing generator, create a new listing markdown file in the `_listings` folder. You can use the example.md as a template. Create a new file for each listing you need generated. 
+To use the listing generator, create a new listing markdown file in the `_listings` folder. You can use the **example.md** as a template. Create a new file for each listing you need generated. 
 
 Once you have created all of you listing files, build the site using `jekyll build`. You will find your listings in the site/listings folder. Open the html files and copy the raw html directly into the eBay listing prompt. 
 
