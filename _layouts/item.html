@@ -19,17 +19,27 @@
                             <tr>
                                 <th class="text-right">Condition:</th>
                                 <td>
+                                    {% if listing.condition == "New" %}
                                     <span class="label label-success">{{ listing.condition}}</span>
-                                    <span class="label label-primary">Pre-Owned</span>
-                                    <span class="label label-warning">For Parts</span>
+                                    {% elsif listing.condition == "Pre-Owned" %}
+                                    <span class="label label-primary">{{ listing.condition }}</span>
+                                    {% elsif listing.condition == "For Parts" %}
+                                    <span class="label label-warning">{{ listing.condition }}</span>
+                                    {% else %}
+                                    <span class="label label-warning">See Description</span>
+                                    {% endif %}
                                 </td>
                             </tr>
                             <tr>
                                 <th class="text-right">Original Packaging:</th>
                                 <td>
-                                    <span class="label label-success">{{ listing.packaging }}</span>
+                                    {% if listing.packaging == true %}
+                                    <span class="label label-success">Yes</span>
+                                    {% elsif listing.packaging == false %} 
                                     <span class="label label-info">No</span>
+                                    {% else %}
                                     <span class="label label-primary">See Description</span>
+                                    {% endif %}
                                 </td>
                             </tr>
                         </tbody>
